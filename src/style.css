@@ -1,64 +1,71 @@
-html{
-    background-image: url("photo/back.jpg");
+html {
     font-family: Gabriola;
     font-size: 25px;
+    background-image: url("photo/back.jpg");
 }
-body{
+
+body {
     margin-left: auto;
     margin-right: auto;
     max-width: 1024px;
 }
 
-h1{
+h1 {
     font-size: 40px;
     font-weight: bold;
 }
 
-h2{
+h2 {
+    padding-bottom: 0;
     font-size: 32px;
     font-weight: bold;
-    padding-bottom: 0;
+
 }
 
-p{
-    font-size: 23px;
+p {
     margin-top: -40px;
+    font-size: 23px;
+
 }
-nav{
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 110px;
     font-size: 23px;
     font-weight: bold;
-    padding-top:20px;
-    padding-bottom: 110px;
+
 }
 
-ul{
+ul {
     margin-top: -10px;
-    margin-bottom: 0px;
-}
-table{
-    margin-top: -40px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
-table tr{
+table {
     margin-top: -40px;
+    margin-bottom: 0;
 }
 
-table td{
+table tr {
     margin-top: -40px;
 }
 
-nav a{
-    background: skyblue;
-    border: 2px solid lightskyblue; /* Рамка */
+table td {
+    margin-top: -40px;
+}
+
+nav a {
+    padding: 3px 3px;
     display: inline-block;
-    padding: 3px 3px; /* Поля */
-    text-decoration: none; /* Убираем подчёркивание */
-    color: #000; /* Цвет текста */
+    text-decoration: none;
+    color: black;
+    background: skyblue;
+    border: 2px solid lightskyblue;
 
 }
-.mainphoto{
-    float:left; /* Выравнивание по левому краю */
-    margin: 7px 15px 7px 0; /* Отступы вокруг картинки */
+
+.mainphoto {
+    margin: 7px 15px 7px 0;
+    float: left;
     border: 8px groove lightskyblue;
 }
