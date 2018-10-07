@@ -36,11 +36,13 @@ nav {
 
 }
 
-ul {
-    margin-top: -10px;
-    margin-bottom: 0;
-    font-style: italic;
-
+nav a {
+    padding: 3px 3px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: skyblue;
+    border: 2px solid lightskyblue;
 }
 
 table {
@@ -56,13 +58,11 @@ table td {
     margin-top: -40px;
 }
 
-nav a {
-    padding: 3px 3px;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    background: skyblue;
-    border: 2px solid lightskyblue;
+ul {
+    margin-top: -10px;
+    margin-bottom: 0;
+    font-style: italic;
+
 }
 
 .mainphoto {
